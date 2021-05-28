@@ -21,6 +21,3 @@ common++;
 lcm(a,b);
 return common;
 }
-
-
-
