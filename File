@@ -13,7 +13,8 @@ char buf[100];
 int a[MAX], s = 0, c = 0, l;
 fprintf(fp, " \n");
 rewind(fp)
-while (!feof(fp)) {
+while (!feof(fp))
+{
 fgets(buf, sizeof(buf), fp);
 l = strlen(buf);
 a = s += l;
